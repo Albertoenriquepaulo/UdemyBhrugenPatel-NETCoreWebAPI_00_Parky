@@ -70,9 +70,9 @@ options.RoutePrefix = "";
 
 And delete the _"launchUrl": "weatherforecast",_ from properties -> launchSettings.json, see Video 28
 
+#### Setting the swagger page with comments in the code of each function
 
-
-
+See Video 29
 
 
 

@@ -130,3 +130,4 @@ D:\Udemy\RESTfulAPIwASP.NETCoreWebAPI-BhrugenPatel\Parky\ParkyAPI\bin\Debug\netc
 D:\Udemy\RESTfulAPIwASP.NETCoreWebAPI-BhrugenPatel\Parky\ParkyAPI\obj\Debug\netcoreapp3.1\ParkyAPI.csproj.CoreCompileInputs.cache
 D:\Udemy\RESTfulAPIwASP.NETCoreWebAPI-BhrugenPatel\Parky\ParkyAPI\obj\Debug\netcoreapp3.1\ParkyAPI.MvcApplicationPartsAssemblyInfo.cs
 D:\Udemy\RESTfulAPIwASP.NETCoreWebAPI-BhrugenPatel\Parky\ParkyAPI\obj\Debug\netcoreapp3.1\ParkyAPI.MvcApplicationPartsAssemblyInfo.cache
+D:\Udemy\RESTfulAPIwASP.NETCoreWebAPI-BhrugenPatel\Parky\ParkyAPI\bin\Debug\netcoreapp3.1\ParkyAPI.xml
