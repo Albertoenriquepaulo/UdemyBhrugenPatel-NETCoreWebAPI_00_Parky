@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using AutoMapper;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using ParkyAPI.Model;
 using ParkyAPI.Model.DTOs;
 using ParkyAPI.Repository.IRepository;
 
@@ -49,6 +50,35 @@ namespace ParkyAPI.Controllers
             NationalParkDTO objDTO = _mapper.Map<NationalParkDTO>(obj);
 
             return Ok(objDTO);
+        }
+
+        [HttpPost]
+        public IActionResult CreateNationalPark([FromBody] NationalParkDTO nationalParkDTO)
+        {
+            if (nationalParkDTO == null)
+            {
+                return BadRequest(ModelState);
+            }
+
+            if (_npRepo.NationalParkExists(nationalParkDTO.Name))
+            {
+                ModelState.AddModelError("", "National Park Exists!");
+                return StatusCode(404, ModelState);
+            }
+
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+
+            NationalPark nationalParkObj = _mapper.Map<NationalPark>(nationalParkDTO);
+
+            if (!_npRepo.CreateNationalPark(nationalParkObj))
+            {
+                ModelState.AddModelError("", $"Something went wrong when we saving the record {nationalParkDTO.Name}");
+                return StatusCode(500, ModelState);
+            }
+            return Ok();
         }
     }
 }
