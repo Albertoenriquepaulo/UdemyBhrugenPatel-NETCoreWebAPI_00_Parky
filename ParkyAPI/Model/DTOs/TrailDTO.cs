@@ -10,6 +10,7 @@ namespace ParkyAPI.Model.DTOs
 {
     public class TrailDTO
     {
+        public int Id { get; set; }
         [Required]
         public string Name { get; set; }
 
@@ -22,5 +23,6 @@ namespace ParkyAPI.Model.DTOs
         public int NationalParkId { get; set; }
 
         public NationalParkDTO NationalParkDTO { get; set; }
+
     }
 }
