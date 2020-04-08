@@ -43,6 +43,19 @@ namespace ParkyAPI
                 {
                     Title = "Parky API",
                     Version = "1",
+                    Description = "Parky API - Learning How to develope API and consume it",
+                    Contact = new Microsoft.OpenApi.Models.OpenApiContact()
+                    {
+                        Email = "Albertopaulo@gmail.com",
+                        Name = "Alberto Paulo",
+                        Url = new Uri("https://www.linkedin.com/in/albertopaulo/")
+
+                    },
+                    License = new Microsoft.OpenApi.Models.OpenApiLicense()
+                    {
+                        Name = "MIT License",
+                        Url = new Uri("https://en.wikipedia.org/wiki/MIT_License")
+                    }
 
                 });
                 var xmlCommentFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
