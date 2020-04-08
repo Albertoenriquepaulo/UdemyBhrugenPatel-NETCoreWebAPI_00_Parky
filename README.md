@@ -22,13 +22,12 @@ Add this to startup -> ConfigureServices
 
 ```c#
 services.AddSwaggerGen(options =>
-            {
-                options.SwaggerDoc("ParkyOpenApiSpec", new Microsoft.OpenApi.Models.OpenApiInfo()
-                {
-                    Title = "Parky API",
-                    Version = "1",
-
-                });
+	{
+	options.SwaggerDoc("ParkyOpenApiSpec", new Microsoft.OpenApi.Models.OpenApiInfo()
+    	{
+        Title = "Parky API",
+        Version = "1",
+		});
 ```
 
 Add this to startup -> Configure
@@ -42,6 +41,38 @@ Now we can open this URL in the browser
 ```shell
 https://localhost:44333/swagger/ParkyOpenApiSpec/swagger.json
 ```
+
+Watch commit _26. Adding Swashbuckle to API_
+
+In this [link](https://docs.microsoft.com/es-es/aspnet/core/tutorials/getting-started-with-swashbuckle?view=aspnetcore-3.1&tabs=visual-studio), there are more information about **_Swashbuckle y ASP.NET Core_**
+
+ To show the UI we need to add this to the startup -> Configure
+
+``` C#
+app.UseSwagger();
+app.UseSwaggerUI(options =>
+	{
+     options.SwaggerEndpoint("/swagger/ParkyOpenApiSpec/swagger.json", "Parky API");
+    });
+```
+
+#### Setting swagger page as home page
+
+Add this to startup -> Configure
+
+```c#
+app.UseSwaggerUI(options =>
+{
+options.SwaggerEndpoint("/swagger/ParkyOpenApiSpec/swagger.json", "Parky API");
+options.RoutePrefix = "";
+});
+```
+
+And delete the _"launchUrl": "weatherforecast",_ from properties -> launchSettings.json, see Video 28
+
+
+
+
 
 
 
