@@ -1,12 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "LlaqyXf8c9hqk0zFk9GkSpt+FzQOje5h5XVvLBIGm19gP7R1apmueRw5VPBLS6/ypLMuNEZHuwLN1wcadMowKA==",
+  "dgSpecHash": "3byOU2mtrfpB+69icYZqB5vaHhL1uEGOFJCxKTCe2pOGsKIxddTxmF5fL9g34Pt8vvjl5xzISfi8JLknIC3PWw==",
   "success": true,
   "projectFilePath": "D:\\Udemy\\RESTfulAPIwASP.NETCoreWebAPI-BhrugenPatel\\Parky\\ParkyAPI\\ParkyAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Alberto\\.nuget\\packages\\automapper\\9.0.0\\automapper.9.0.0.nupkg.sha512",
     "C:\\Users\\Alberto\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\7.0.0\\automapper.extensions.microsoft.dependencyinjection.7.0.0.nupkg.sha512",
     "C:\\Users\\Alberto\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
+    "C:\\Users\\Alberto\\.nuget\\packages\\microsoft.aspnetcore.mvc.versioning\\4.1.1\\microsoft.aspnetcore.mvc.versioning.4.1.1.nupkg.sha512",
+    "C:\\Users\\Alberto\\.nuget\\packages\\microsoft.aspnetcore.mvc.versioning.apiexplorer\\4.1.1\\microsoft.aspnetcore.mvc.versioning.apiexplorer.4.1.1.nupkg.sha512",
     "C:\\Users\\Alberto\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",
     "C:\\Users\\Alberto\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\3.1.0\\microsoft.aspnetcore.razor.language.3.1.0.nupkg.sha512",
     "C:\\Users\\Alberto\\.nuget\\packages\\microsoft.aspnetcore.razor.runtime\\2.2.0\\microsoft.aspnetcore.razor.runtime.2.2.0.nupkg.sha512",

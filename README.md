@@ -78,5 +78,15 @@ See Video 29
 
 See Video 30
 
+#### Api Versioning
+
+```shell
+Install NugetPcket -> Microsoft.AspNetCore.Mvc.Versioning		
+```
+
+See Video 41
+
+
+
 
 
