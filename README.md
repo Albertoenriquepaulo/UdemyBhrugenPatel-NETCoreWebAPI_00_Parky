@@ -74,5 +74,9 @@ And delete the _"launchUrl": "weatherforecast",_ from properties -> launchSettin
 
 See Video 29
 
+#### Ignoring XML Comments Warnings
+
+See Video 30
+
 
 
