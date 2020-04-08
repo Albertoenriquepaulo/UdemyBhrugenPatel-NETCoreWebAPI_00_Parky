@@ -1,8 +1,7 @@
-# NetCore_ComputerApp
-Final Project 3rd Module BBKBootCamp. Build your own PC. .Newt Core EF w Identity
-**This is bold text**
+# RESTful API with ASP.NET Core Web API - Create and Consume. 
+Udemy Course Training by BhrugenPatel
 
-## Pasos para crear el proyecto .NetCore
+## Notas importantes
 1. Crear el modelo
 2. Si hay manejo de usuarios con Identity, modificar *Startup.cs*, en este caso nuestra extension de la clase usuario se llama **AppUser**
 ```
