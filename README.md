@@ -80,11 +80,31 @@ See Video 30
 
 #### Api Versioning
 
+Install NugetPcket 
+
 ```shell
-Install NugetPcket -> Microsoft.AspNetCore.Mvc.Versioning		
+Microsoft.AspNetCore.Mvc.Versioning
+Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer
 ```
 
-See Video 41
+Add this to startup -> ConfigureServices
+
+```C#
+services.AddApiVersioning(options =>
+{
+    options.AssumeDefaultVersionWhenUnspecified = true;
+    options.DefaultApiVersion = new ApiVersion(1, 0);
+    options.ReportApiVersions = true;
+});
+```
+
+See Video 41, 42
+
+### Creating a MVC Project in the same Solution
+
+See video 47
+
+
 
 
 
