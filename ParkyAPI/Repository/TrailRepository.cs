@@ -53,7 +53,15 @@ namespace ParkyAPI.Repository
 
         public bool Save()
         {
-            return _dbContext.SaveChanges() >= 0 ? true : false;
+            try
+            {
+                return _dbContext.SaveChanges() >= 0 ? true : false;
+            }
+            catch (Exception)
+            {
+
+                return false;
+            }
         }
 
         public bool UpdateTrail(Trail trail)
