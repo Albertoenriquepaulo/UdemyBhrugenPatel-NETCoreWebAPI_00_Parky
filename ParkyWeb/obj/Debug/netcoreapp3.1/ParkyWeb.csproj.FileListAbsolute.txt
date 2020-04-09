@@ -348,6 +348,3 @@ D:\Udemy\RESTfulAPIwASP.NETCoreWebAPI-BhrugenPatel\Parky\ParkyWeb\bin\Debug\netc
 D:\Udemy\RESTfulAPIwASP.NETCoreWebAPI-BhrugenPatel\Parky\ParkyWeb\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
 D:\Udemy\RESTfulAPIwASP.NETCoreWebAPI-BhrugenPatel\Parky\ParkyWeb\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
 D:\Udemy\RESTfulAPIwASP.NETCoreWebAPI-BhrugenPatel\Parky\ParkyWeb\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\Udemy\RESTfulAPIwASP.NETCoreWebAPI-BhrugenPatel\Parky\ParkyWeb\obj\Debug\netcoreapp3.1\ParkyWeb.csproj.CoreCompileInputs.cache
-D:\Udemy\RESTfulAPIwASP.NETCoreWebAPI-BhrugenPatel\Parky\ParkyWeb\obj\Debug\netcoreapp3.1\ParkyWeb.MvcApplicationPartsAssemblyInfo.cs
-D:\Udemy\RESTfulAPIwASP.NETCoreWebAPI-BhrugenPatel\Parky\ParkyWeb\obj\Debug\netcoreapp3.1\ParkyWeb.MvcApplicationPartsAssemblyInfo.cache
