@@ -108,6 +108,18 @@ See video 47
 
 See video 55
 
+## Change Website Theme
+
+[Bootswatch](https://bootswatch.com/)
+
+Download the desired theme css file (a bootstrap.css), an copy the content of the file inside the project
+
+```shell
+\wwwroot\lib\bootstrap\dist\css\bootstrap.css
+```
+
+Ver video 72
+
 
 
 
