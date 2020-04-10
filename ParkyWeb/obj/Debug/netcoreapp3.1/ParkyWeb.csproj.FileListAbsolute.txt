@@ -396,3 +396,4 @@ D:\Udemy\RESTfulAPIwASP.NETCoreWebAPI-BhrugenPatel\Parky\ParkyWeb\bin\Debug\netc
 D:\Udemy\RESTfulAPIwASP.NETCoreWebAPI-BhrugenPatel\Parky\ParkyWeb\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\Udemy\RESTfulAPIwASP.NETCoreWebAPI-BhrugenPatel\Parky\ParkyWeb\obj\Debug\netcoreapp3.1\Razor\Views\NationalParks\Index.cshtml.g.cs
 D:\Udemy\RESTfulAPIwASP.NETCoreWebAPI-BhrugenPatel\Parky\ParkyWeb\obj\Debug\netcoreapp3.1\Razor\Views\NationalParks\Upsert.cshtml.g.cs
+D:\Udemy\RESTfulAPIwASP.NETCoreWebAPI-BhrugenPatel\Parky\ParkyWeb\obj\Debug\netcoreapp3.1\Razor\Views\Trails\Index.cshtml.g.cs
