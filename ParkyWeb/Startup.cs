@@ -77,8 +77,11 @@ namespace ParkyWeb
                .AllowAnyHeader());
 
             app.UseSession();
-            app.UseAuthorization();
+
+            //OJO -> Always UseAuthentication must be first than UseAuthorization
             app.UseAuthentication();
+            app.UseAuthorization();
+
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllerRoute(
